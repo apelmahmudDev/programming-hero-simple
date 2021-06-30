@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Programming hero simple</title>
+
+		<!-- bootstrap stylesheet cdn link -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+
+		<!-- custom css -->
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container">
+					<a class="navbar-brand" href="#"
+						><img src="images/ph-logo.png" alt="programming-hero"
+					/></a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav programming-hero-navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#home"
+									>Home</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#courses">Courses</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#purchase">Purchase</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#aboutus">About Us</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<section class="slider">
+				<div
+					id="carouselExampleIndicators"
+					class="carousel slide"
+					data-bs-ride="carousel"
+				>
+					<div class="carousel-indicators">
+						<button
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide-to="0"
+							class="active"
+							aria-current="true"
+							aria-label="Slide 1"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide-to="1"
+							aria-label="Slide 2"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide-to="2"
+							aria-label="Slide 3"
+						></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="row programming-hero-carousel-item-1">
+								<div class="col-md-7">
+									<h1>Programming Just Got a Fun</h1>
+									<p>
+										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+										Ratione perspiciatis impedit obcaecati optio dolorum
+										similique beatae aspernatur sit necessitatibus autem?
+									</p>
+									<button class="enroll-btn">Enroll now</button>
+								</div>
+								<div class="col-md-5">
+									<img
+										class="d-block w-75"
+										src="images/banner/banner-1.png"
+										alt="programming-hero"
+									/>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row programming-hero-carousel-item-2">
+								<div class="col-md-7">
+									<h1>To be A World Class Programmer</h1>
+									<p>
+										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+										Ratione perspiciatis impedit obcaecati optio dolorum
+										similique beatae aspernatur sit necessitatibus autem?
+									</p>
+									<button class="enroll-btn">Enroll now</button>
+								</div>
+								<div class="col-md-5">
+									<img
+										class="d-block w-75"
+										src="images/banner/banner-2.png"
+										alt="programming-hero"
+									/>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row programming-hero-carousel-item-3">
+								<div class="col-md-7">
+									<h1>We Are Support Life Time</h1>
+									<p>
+										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+										Ratione perspiciatis impedit obcaecati optio dolorum
+										similique beatae aspernatur sit necessitatibus autem?
+									</p>
+									<button class="enroll-btn">Enroll now</button>
+								</div>
+								<div class="col-md-5">
+									<img
+										class="d-block w-75"
+										src="images/banner/banner-3.png"
+										alt="programming-hero"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide="prev"
+					>
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide="next"
+					>
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</section>
+		</header>
+		<section class="about-us" style="padding: 5%">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5 d-flex justify-content-center">
+						<img
+							src="images/ph-logo-3.jpg"
+							alt="programming-hero"
+							class="d-block w-75"
+						/>
+					</div>
+					<div class="col-md-7">
+						<h1>About Programming Hero</h1>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+							veritatis sapiente accusantium debitis neque quaerat dolorem quia
+							quo asperiores, ipsa officiis obcaecati repudiandae excepturi eum
+							iste voluptates dolore unde cumque!
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+							veritatis sapiente accusantium debitis neque quaerat dolorem quia
+							quo asperiores, ipsa officiis obcaecati repudiandae excepturi eum
+							iste voluptates dolore unde cumque!
+						</p>
+						<button class="enroll-btn">Enroll now</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="sponsors">
+			<div class="container">
+				<div class="section title text-center">
+					<h2>Our Sponsor</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit
+						mollitia aspernatur eligendi <br />
+						voluptatum illo autem consequatur tenetur, odio cupiditate.
+						Voluptatem.
+					</p>
+				</div>
+				<div class="row d-flex justify-content-between mt-5">
+					<div class="col-md-4">
+						<img
+							src="images/sponsors/google.png"
+							alt="google"
+							class="d-block w-75"
+						/>
+					</div>
+					<div class="col-md-4">
+						<img
+							src="images/sponsors/slack.png"
+							alt="slack"
+							class="d-block w-75"
+						/>
+					</div>
+					<div class="col-md-4">
+						<img
+							src="images/sponsors/google.png"
+							alt="google"
+							class="d-block w-75"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- bootstrap js cdn link -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
